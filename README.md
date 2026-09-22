@@ -10,10 +10,9 @@ A DaBi Price mostra ao empreendedor a diferença entre o **custo real** de um pr
 
 ## Telas
 
-<!-- Adicione os prints na pasta screenshots/ e ajuste os nomes abaixo -->
-| Landing | Precificação | Assinatura |
+| Precificação | Planos e assinatura | Console Super Admin |
 |---|---|---|
-| ![Landing](screenshots/landing.png) | ![Precificação](screenshots/precificacao.png) | ![Assinatura](screenshots/assinatura.png) |
+| ![Precificação](screenshots/precificacao.png) | ![Planos](screenshots/assinatura.png) | ![Super Admin](screenshots/admin.png) |
 
 ---
 
