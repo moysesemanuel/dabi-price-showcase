@@ -2,7 +2,7 @@
 
 ## Números
 
-- **58 suítes de testes unitários**, rodando com o test runner nativo do Node.js
+- **61 suítes de testes unitários**, rodando com o test runner nativo do Node.js
 - **9 suítes de integração** contra PostgreSQL real
 - Executadas em **toda pull request** pelo GitHub Actions
 

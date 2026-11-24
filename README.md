@@ -23,6 +23,7 @@ A DaBi Price mostra ao empreendedor a diferença entre o **custo real** de um pr
 - **Assinaturas** com planos Start, Pro e Max, ciclos mensal e anual, Pix e cartão recorrente via Mercado Pago
 - **Upgrade, downgrade e mudança de ciclo** com proração, tolerância e expiração
 - **Console de Super Admin** para usuários, workspaces, pagamentos, eventos e auditoria, sem editor genérico de banco
+- **Orçamento para o cliente final**, com documento pronto para imprimir ou exportar em PDF
 - **Integrações** com ERP e Mercado Livre (OAuth por workspace), upload de imagens e e-mail transacional
 - Autenticação por sessão com cookie `httpOnly`, recuperação de acesso, consentimento legal (LGPD) e rate limit
 
@@ -65,7 +66,7 @@ O motor de cálculo é isolado da interface e da autenticação, e o **workspace
 
 **Observabilidade sem vazar dados.** Sentry instrumentado nos runtimes de browser, Node e Edge, com ambientes separados (produção, preview, homologação). Antes do envio, um filtro remove dados de requisição e de usuário e mascara valores sensíveis. Veja [docs/observabilidade.md](docs/observabilidade.md).
 
-**Qualidade automatizada.** 58 suítes de testes unitários e 9 de integração com Postgres real, cobrindo precificação, billing, concorrência, controle de acesso e observabilidade. Toda pull request passa por lint, typecheck, testes e build no GitHub Actions. Veja [docs/estrategia-de-testes.md](docs/estrategia-de-testes.md).
+**Qualidade automatizada.** 61 suítes de testes unitários e 9 de integração com Postgres real, cobrindo precificação, billing, concorrência, controle de acesso e observabilidade. Toda pull request passa por lint, typecheck, testes e build no GitHub Actions. Veja [docs/estrategia-de-testes.md](docs/estrategia-de-testes.md).
 
 **Desenvolvimento orientado a especificação, com IA.** Escopo congelado por ciclo, plano de 24 fases com critérios de aceite, ADRs antes de mudanças estruturais e agentes de IA trabalhando sobre essas especificações. Veja [docs/processo-de-desenvolvimento.md](docs/processo-de-desenvolvimento.md).
 
